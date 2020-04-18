@@ -10,5 +10,6 @@ setup(name='mypackage',
       packages=['mypackage'],
       install_requires=[
           'requests',
-      ],      
+      ],
+      include_package_data=True,      
       zip_safe=False)
