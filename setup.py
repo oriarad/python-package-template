@@ -8,4 +8,7 @@ setup(name='mypackage',
       author_email='aradori@hotmail.com',
       license='MIT',
       packages=['mypackage'],
+      install_requires=[
+          'requests',
+      ],      
       zip_safe=False)
